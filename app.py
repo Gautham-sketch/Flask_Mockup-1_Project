@@ -27,7 +27,7 @@ def likedMovies():
         'status' : 'success'
     }),200
 
-@app.route("/likedArticles",methods=["POST"])
+@app.route("/notlikedArticles",methods=["POST"])
 def notlikedMovies():
     article = all_articles[0]
     notliked_articles.append(article)
